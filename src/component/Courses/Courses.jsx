@@ -11,7 +11,7 @@ const Courses = () => {
         .then(data => setCourses(data))
     },[])
     return (
-        <div>
+        <div className="w-3/4">
             <h3 className="text-2xl text-center">Total Course: {courses.length}</h3>
             {
                 courses.map( (course,idx) => <Course key={idx} course={course}></Course>)

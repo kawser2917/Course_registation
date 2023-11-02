@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "coursetitle": "Introduction to Computer Science",
+      "courseprice": 199.99,
+      "coursedescription": "Learn the basics of computer science and programming.",
+      "credithour": 3,
+      "courseimg": "https://i.ibb.co/zbsj6fF/Rectangle-2.png"
+    },
+    {
+      "id": 2,
+      "coursetitle": "Web Development Fundamentals",
+      "courseprice": 149.99,
+      "coursedescription": "Get started with web development and design.",
+      "credithour": 4,
+      "courseimg": "https://i.ibb.co/yB9KDQP/Rectangle-2-1.png"
+    },
+    {
+      "id": 3,
+      "coursetitle": "Data Analysis with Python",
+      "courseprice": 249.99,
+      "coursedescription": "Explore data analysis using Python and popular libraries.",
+      "credithour": 5,
+      "courseimg": "https://i.ibb.co/ZfWPscT/Rectangle-2-2.png"
+    },
+    {
+      "id": 4,
+      "coursetitle": "Digital Marketing Essentials",
+      "courseprice": 129.99,
+      "coursedescription": "Master the fundamentals of digital marketing strategies.",
+      "credithour": 3,
+      "courseimg": "https://i.ibb.co/ByyQVLb/Rectangle-2-3.png"
+    },
+    {
+      "id": 5,
+      "coursetitle": "Artificial Intelligence in Healthcare",
+      "courseprice": 299.99,
+      "coursedescription": "Discover how AI is transforming the healthcare industry.",
+      "credithour": 4,
+      "courseimg": "https://i.ibb.co/z5129CJ/Rectangle-2-4.png"
+    },
+    {
+      "id": 6,
+      "coursetitle": "Graphic Design Fundamentals",
+      "courseprice": 159.99,
+      "coursedescription": "Learn the basics of graphic design and creative techniques.",
+      "credithour": 3,
+      "courseimg": "https://i.ibb.co/42gvwVL/Rectangle-2-5.png"
+    },
+    {
+      "id": 7,
+      "coursetitle": "Business Management Principles",
+      "courseprice": 199.99,
+      "coursedescription": "Gain insights into effective business management strategies.",
+      "credithour": 4,
+      "courseimg": "https://i.ibb.co/5WhcJCL/Rectangle-2-6.png"
+    },
+    {
+      "id": 8,
+      "coursetitle": "Mobile App Development with Flutter",
+      "courseprice": 249.99,
+      "coursedescription": "Build mobile apps with Flutter framework for iOS and Android.",
+      "credithour": 5,
+      "courseimg": "https://i.ibb.co/tJbzcVr/Rectangle-3.png"
+    },
+    {
+      "id": 9,
+      "coursetitle": "Environmental Sustainability and Conservation",
+      "courseprice": 179.99,
+      "coursedescription": "Learn about environmental issues and conservation efforts.",
+      "credithour": 3,
+      "courseimg": "https://i.ibb.co/GQ0QdZt/Rectangle-3-1.png"
+    }
+  ]
+  

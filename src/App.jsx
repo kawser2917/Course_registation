@@ -1,19 +1,29 @@
 import './App.css'
-import Courseinfo from './component/Courseinfo/Courseinfo'
 import Courses from './component/Courses/Courses'
 import Header from './component/Header/Header'
 
 function App() {
+  const [titles,setTitles] = ([])
+
+  const handleTitle = (title) => {
+    const newTitle = [...titles,title]
+    setTitles(newTitle)
+
+  }
 
   return (
     <>
-    <Header></Header>
-    <div className='flex'>
-    <Courses></Courses>
-    <Courseinfo></Courseinfo>
-    </div>
-    
-  
+      <div className='max-w-7xl mx-auto'>
+        <Header></Header>
+        <div className='flex'>
+          <Courses handleTitle={handleTitle}></Courses>
+        
+        </div>
+
+      </div>
+
+
+
     </>
   )
 }

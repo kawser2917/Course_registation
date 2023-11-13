@@ -3,8 +3,9 @@ const Courseinfo = ({title}) => {
     console.log(title)
     return (
         <div>
-           
-            <p>{title}</p>
+            <ul>
+                <li>{title}</li>
+            </ul>
             
         </div>
     );

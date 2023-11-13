@@ -5,11 +5,13 @@ import Coursesinfo from './component/Coursesinfo/Coursesinfo'
 import Header from './component/Header/Header'
 
 function App() {
-  const [titles,setTitles] = useState([])
+  const [titles, setTitles] = useState([])
 
-  const handleTitle = title =>{
-    const newTitle = [...titles,title]
-    setTitles(newTitle)
+  const handleTitle = title => {
+    if (title !== titles) {
+      const newTitle = [...titles, title]
+      setTitles(newTitle)
+    }
   }
 
 
